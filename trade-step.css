@@ -1,0 +1,132 @@
+/** onepage trade step */
+
+.onepage-step {
+    position: relative;
+    margin: 20px 0 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+.onepage-step-done .icon {
+    background: #ECBF95;
+}
+span.onepage-step-current .icon{
+    background: #df7226;
+}
+span.onepage-step-ready .icon{
+    background: #DAE1EA;
+}
+.onepage-step .onepage-step-item.last{
+    margin-right: 0;
+}
+.onepage-step-state-wrap {
+    display: inline-block;
+}
+.onepage-step .icon{
+    width: 16px;
+    height: 16px;
+    background: #df7226;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    z-index: 135;
+}
+.onepage-step .state{
+    margin-top: 5px;
+    color: #999;
+    position: relative;
+    left: -50%;
+    margin-left: 16px;
+}
+.onepage-step hr.onepage-step-done-line.step01{
+    width: 0;
+}
+
+
+.onepage-step hr.onepage-step-ready-line {
+    border-top: 1px dashed #ccc;
+    position: absolute;
+    z-index: 122;
+}
+.onepage-step hr.onepage-step-done-line {
+    border-top: 2px solid #F0C6A1;
+    position: absolute;
+    z-index: 123;
+    z-index: 123;
+}
+.onepage-step .onepage-step-item{
+    margin-left: 0;
+    float: left;
+    width: 12.5%;
+    text-align: left;
+}
+.onepage-step hr.onepage-step-done-line.step02 {
+   width: 12.5%;
+}
+.onepage-step hr.onepage-step-done-line.step03{
+    width: 25%;
+}
+.onepage-step hr.onepage-step-done-line.step04{
+    width: 37.5%;
+}
+.onepage-step hr.onepage-step-done-line.step05 {
+    width: 50%;
+}
+.onepage-step hr.onepage-step-done-line.step06 {
+    width: 62.5%;
+}
+
+/** 不同的数量的trade-step兼容 */
+/* onepage-step-5 */
+.onepage-step.onepage-step-5 {
+  margin-left: -200px;
+}
+.onepage-step-5 hr.onepage-step-ready-line {
+  width: 50%;
+}
+
+.onepage-step-5 .onepage-step-item-first {
+    margin-left: 37.5%;
+}
+.onepage-step-5 hr.onepage-step-ready-line {
+    margin-left: 37.5%;
+}
+.onepage-step-5 hr.onepage-step-done-line {
+    margin-left: 37.5%;
+}
+
+
+/* onepage-step-6 */
+.onepage-step.onepage-step-6 {
+  margin-left: -100px;
+}
+.onepage-step-6 hr.onepage-step-ready-line {
+   width: 62.5%;
+}
+.onepage-step-6 .onepage-step-item-first {
+    margin-left: 25%;
+}
+.onepage-step-6 hr.onepage-step-ready-line {
+    margin-left: 25%;
+}
+.onepage-step-6 hr.onepage-step-done-line {
+    margin-left: 25%;
+}
+
+
+/* onepage-step-7 */
+.onepage-step.onepage-step-7 {
+  /*margin-left: -100px;*/
+}
+.onepage-step-7 hr.onepage-step-ready-line {
+    width: 75%;
+}
+.onepage-step-7 .onepage-step-item-first {
+    margin-left: 12.5%;
+}
+.onepage-step-7 hr.onepage-step-ready-line {
+    margin-left: 12.5%;
+}
+.onepage-step-7 hr.onepage-step-done-line {
+    margin-left: 12.5%;
+}
+
